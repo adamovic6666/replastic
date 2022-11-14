@@ -1,0 +1,80 @@
+.Redemption {
+  position: relativee;
+}
+
+.TextContentWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.TextContentWrapper p {
+  max-width: 510px;
+  color: var(--gray);
+}
+
+.TextContentWrapper span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.03em;
+  margin-top: 8px;
+  color: var(--gray);
+  display: block;
+}
+
+.Redemption h3 {
+  margin: 8px 0 24px;
+}
+
+.CardsWrapper {
+  padding: 40px 0 16px;
+  display: flex;
+  gap: 17px;
+}
+
+.Card {
+  padding: 24px;
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  background: #fffeff;
+  border: 1px solid rgba(31, 32, 35, 0.3);
+  border-radius: 24px 0px 24px 24px;
+  position: relative;
+}
+
+.CardImageWrapper span {
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--gray);
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.CardTextWrapper span {
+  font-size: 20px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--black);
+}
+.CardTextWrapper p {
+  font-size: 14px;
+  line-height: 120%;
+  color: var(--gray);
+  margin: 0;
+  margin-top: 8px;
+}
+
+.BottomText {
+  text-align: right;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+
+.BottomText span {
+  color: var(--blue);
+}

@@ -1,0 +1,27 @@
+.Recycling {
+  padding: 120px 6.66em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Recycling h3 {
+  margin: 8px 0 24px;
+}
+
+.TextContent {
+  max-width: 479px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.TextContent p {
+  font-size: 16px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+}
+
+.TextContent p:nth-of-type(1) {
+  font-weight: 600;
+}

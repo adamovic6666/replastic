@@ -1,0 +1,54 @@
+.About {
+  padding: 64px 6.66em 120px;
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.About h3 {
+  margin: 8px 0 24px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.TextWrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.TextWrapper p {
+  max-width: 511px;
+  color: var(--gray);
+}
+
+.ImageWrapper {
+  width: 100%;
+  height: 753px;
+  position: relative;
+  margin-top: 64px;
+  position: relative;
+  z-index: 1;
+}
+
+.ImageWrapper svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.AboutFrame {
+  background-image: url("/about-frame.png");
+  position: absolute;
+  right: -15%;
+  bottom: -30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 877px;
+  width: 1268px;
+  z-index: 0;
+  opacity: 0.7;
+}

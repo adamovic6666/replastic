@@ -1,0 +1,50 @@
+.Header {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  justify-content: space-between;
+}
+
+.Header,
+.NavWrapper,
+.NavList {
+  display: flex;
+  align-items: center;
+}
+
+.NavList {
+  list-style: none;
+  padding: 0;
+  margin-left: 5rem;
+  gap: 1.5rem;
+}
+
+.NavList a,
+.ContactWrapper p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #202020;
+}
+
+.ContactWrapper p {
+  margin-right: 24px;
+}
+
+.ContactWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.MediaLink {
+  border: 1px solid #636465;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MediaLink {
+  margin-right: 16px;
+}

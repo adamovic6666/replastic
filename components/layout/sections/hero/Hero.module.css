@@ -1,0 +1,101 @@
+.Hero {
+  display: flex;
+  flex-direction: column;
+  padding-left: 6.66em;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+.HeroBottomWrapper,
+.HeroTopWrapper {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.HeroTopWrapper {
+  padding-top: 27px;
+  margin-bottom: 16px;
+}
+
+.HeroTextWrapper {
+  padding-top: 80px;
+}
+
+.HeroTextWrapper h1 {
+  max-width: 644px;
+}
+
+.HeroTextWrapper h1 {
+  max-width: 644px;
+}
+
+.HeroTextWrapper p {
+  color: var(--gray);
+  max-width: 511px;
+  margin-top: 16px;
+}
+
+.HeroTextWrapper span {
+  color: var(--blue);
+}
+
+.HeroTextWrapper p span {
+  font-weight: 600;
+}
+
+.HeroBottomImagesWrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.HeroVideoWrapper {
+  display: flex;
+  padding-top: 56px;
+  height: min-content;
+  align-items: center;
+  position: relative;
+}
+
+.HeroVideoWrapper svg {
+  margin-right: 24px;
+}
+
+.HeroVideoWrapper p {
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #00aeef;
+  max-width: 130px;
+  color: var(--gray);
+}
+
+.HeroVideoWrapper span {
+  height: 1px;
+  width: 144px;
+  background-color: var(--blue);
+  display: flex;
+  position: absolute;
+  top: calc(50% + 28px);
+  transform: translate(-50%, -50%);
+  left: -36px;
+  z-index: 1;
+}
+
+.HeroFrame {
+  background-image: url("/hero-frame.png");
+  position: absolute;
+  right: 0;
+  bottom: -25%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 877px;
+  width: 1268px;
+  z-index: 0;
+  opacity: 0.7;
+}

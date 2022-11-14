@@ -1,0 +1,12 @@
+.Link {
+  background-color: var(--blue);
+  padding: 12px 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #f5f5f7;
+  border-radius: 12px;
+}
