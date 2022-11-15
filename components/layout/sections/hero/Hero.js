@@ -13,8 +13,9 @@ const Hero = () => {
           <p className="body-text">
             <span>REPLASTIC </span>
             je jedan od lidera na polju reciklaže plastike u Srbiji. Preduzeće
-            je osnovano 2008. godine i bavi se otkupom i reciklažom svih vrsta
-            plastike, kao i prodajom granulisanih materijala PREMIJUM kvaliteta.
+            je osnovano 2008. godine i bavi se otkupom <br />i reciklažom svih
+            vrsta plastike, kao i prodajom granulisanih materijala PREMIJUM
+            kvaliteta.
           </p>
           <Link href="#contact">Pozovite nas</Link>
         </div>

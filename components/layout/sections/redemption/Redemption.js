@@ -35,14 +35,12 @@ const Redemption = () => {
       </div>
       <div className={classes.BottomText}>
         <p>
-          <span> Minimalne količine za otkup : </span>
+          <span> Minimalne količine za otkup: </span>
           200 kg jedne vrste plastičnog proizvoda.
         </p>
         <p>
-          <span>
-            Minimalne količine za otkup <br /> 200 kg jedne vrste plastičnog
-            proizvoda.
-          </span>
+          <span>Minimalne količine za otkup </span>
+          <br /> 200 kg jedne vrste plastičnog proizvoda
         </p>
       </div>
     </div>

@@ -82,6 +82,7 @@
 
 .BottomText p:nth-of-type(2) {
   display: block;
+  color: var(--gray);
 }
 
 .BottomText span {

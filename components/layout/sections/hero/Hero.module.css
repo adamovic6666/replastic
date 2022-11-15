@@ -50,6 +50,7 @@
 .HeroTextWrapper {
   padding-top: 80px;
   margin-bottom: 64px;
+  padding-right: 16px;
 }
 
 .HeroTextWrapper a {
@@ -166,6 +167,10 @@
   .Hero {
     padding-left: 6.66em;
     overflow: visible;
+  }
+
+  .HeroTextWrapper {
+    padding-right: 0px;
   }
 
   .HeroTextWrapper a {

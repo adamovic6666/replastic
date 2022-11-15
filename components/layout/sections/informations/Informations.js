@@ -11,8 +11,8 @@ const Informations = () => {
         <div>
           <h3>Pišite nam na Viber ili WhatsApp</h3>
           <p>
-            Pošaljite nam slike i sve raspoložive informacije o otkupnom
-            otpadnom materijalu i javićemo Vam se u najkraćem roku.
+            Pošaljite nam slike i sve raspoložive informacije <br />o otkupnom
+            otpadnom materijalu i javićemo Vam se <br />u najkraćem roku.
           </p>
           <div className={classes.LinksWrapper}>
             <a href="viber://chat?number=063387954" className={classes.Link}>
