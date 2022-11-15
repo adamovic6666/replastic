@@ -2,72 +2,11 @@
   position: relative;
 }
 
-.Informations {
-  background: #f5f5f7;
-  box-shadow: 0px 12px 29px rgba(0, 0, 0, 0.08);
-  border-radius: 24px 40px 40px 40px;
-  width: 100%;
-  padding: 80px 0px 80px 80px;
-  margin-bottom: 80px;
-  overflow: hidden;
-  position: relative;
-  z-index: 1;
-}
-
-.Informations h3 {
-  margin: 8px 0 24px;
-}
-
-.Informations p {
-  font-size: 16px;
-  line-height: 140%;
-  letter-spacing: 0.02em;
-  max-width: 432px;
-  color: var(--gray);
-  margin-bottom: 26px;
-}
-
-.LinksWrapper {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
-.LinksWrapper span {
-  border-left: 1px solid var(--gray);
-  padding-left: 8px;
-  margin-left: 8px;
-}
-
-.LinksWrapper a {
-  display: flex;
-  align-items: center;
-  border: 1px solid var(--gray);
-  border-radius: 12px;
-  padding: 8px 16px;
-  text-transform: uppercase;
-}
-
-.BubbleImage {
-  position: absolute;
-  right: 160px;
-  top: -47px;
-  z-index: 2;
-}
-
-.Frame {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 40%;
-  z-index: 1;
-  height: 100%;
-}
-
 .Contact {
   display: flex;
   justify-content: space-between;
   position: relative;
+  flex-direction: column;
 }
 
 .DetailsWrapper {
@@ -79,6 +18,7 @@
 .Details {
   display: flex;
   gap: 42px;
+  flex-direction: column;
 }
 
 .Details .DetailsColumn:nth-of-type(1) .DetailWrapper:nth-of-type(2) > div {
@@ -126,18 +66,57 @@
 .Map {
   border-radius: 24px;
   overflow: hidden;
+  position: relative;
+  z-index: 1;
+  margin-top: 64px;
 }
 
 .ContactFrame {
   background-image: url("/contact-frame.png");
   position: absolute;
-  left: -20%;
-  bottom: -20%;
+  left: 0%;
+  bottom: -5%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   height: 877px;
-  width: 1069px;
+  width: 100%;
   z-index: 0;
   opacity: 0.7;
+  transform: rotate(0deg);
+}
+
+.ContactWrapper > span {
+  position: absolute;
+  z-index: -1;
+  top: -50px;
+  left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .Contact,
+  .Details {
+    flex-direction: row;
+  }
+
+  .Map {
+    margin-top: 0px;
+  }
+
+  .ContactFrame {
+    left: -5%;
+    bottom: -15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 0;
+    opacity: 0.7;
+    transform: rotate(90deg);
+  }
+}
+
+@media only screen and (min-width: 1280px) {
 }

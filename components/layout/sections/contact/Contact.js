@@ -1,7 +1,4 @@
-import Tag from "../../../ui/Tag";
 import classes from "./Contact.module.css";
-import Image from "next/image";
-import Link from "next/link";
 import Location from "../../../svgs/Location";
 import Clock from "../../../svgs/Clock";
 import Telephone from "../../../svgs/Telephone";
@@ -10,33 +7,7 @@ import Email from "../../../svgs/Email";
 const Contact = () => {
   return (
     <div className={`${classes.ContactWrapper} container`}>
-      <div className={classes.BubbleImage}>
-        <Image src="/bubble.png" width={336} height={292} />
-      </div>
-      <div className={classes.Informations}>
-        <div>
-          <Tag>informacije</Tag>
-          <h3>Pišite nam na Viber ili WhatsApp</h3>
-          <p>
-            Pošaljite nam slike i informacije o otkupnom otpadnom materijalu i
-            javićemo Vam se u najkraćem roku.
-          </p>
-          <div className={classes.LinksWrapper}>
-            <Link href="/" className={classes.Link}>
-              <Image src="/viber.png" height={24} width={24} />
-              <span>whatsapp</span>
-            </Link>
-            <Link href="/" className={classes.Link}>
-              <Image src="/whatsupp.png" height={24} width={24} />
-              <span>viber</span>
-            </Link>
-          </div>
-        </div>
-
-        <div className={classes.Frame}>
-          <Image src="/info-frame.png" width={540} height={540} />
-        </div>
-      </div>
+      <span id="contact"></span>
       <div className={classes.Contact}>
         <div className={classes.DetailsWrapper}>
           <h3>Kontakt</h3>
@@ -45,8 +16,12 @@ const Contact = () => {
               <div className={classes.DetailWrapper}>
                 <Location />
                 <div>
-                  <p> Replastic d.o.o</p>
-                  <p>Severoistočna radna zona bbBlok 11 - Pinc 222320 Inđija</p>
+                  <p>Replastic d.o.o</p>
+                  <p>
+                    Severoistočna radna zona bb <br />
+                    Blok 11 - Pinc 2 <br />
+                    22320 Inđija
+                  </p>
                 </div>
               </div>
               <div className={classes.DetailWrapper}>
@@ -101,9 +76,9 @@ const Contact = () => {
             width={600}
             height={450}
             style={{ border: "0px" }}
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
         <div className={classes.ContactFrame}></div>

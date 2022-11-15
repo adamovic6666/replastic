@@ -1,17 +1,20 @@
 import classes from "./Recycling.module.css";
-import Tag from "../../../ui/Tag";
 import Image from "next/image";
+import { isWindow } from "../../../../utils/utils";
 
 const Recycling = () => {
+  const width =
+    isWindow && window.innerWidth < 768 ? window.innerWidth - 32 : 721;
+
   return (
     <div className={`${classes.Recycling} container`}>
+      <span id="recycling"></span>
       <div>
-        <Tag>reciklaža</Tag>
         <h3>Reciklaža plastike</h3>
         <div className={classes.TextContent}>
           <p>
-            Obezbeđujemo svu potrebnu dokumentaciju o kretanju otpada. Savremeni
-            sertifikovani reciklažni centar.
+            Replastic predstavlja savremeni sertifikovani reciklažni centar koji
+            Vam obezbeđuje svu potrebnu dokumentaciju o kretanju otpada.
           </p>
           <p>
             Reciklaža plastike predstavlja izdvajanje i razvrstavanje plastičnih
@@ -29,7 +32,12 @@ const Recycling = () => {
         </div>
       </div>
       <div>
-        <Image src="/recycle-img.png" width={721} height={442} />
+        <Image
+          src="/about-img.png"
+          width={width}
+          height={442}
+          alt="plastic-recycle-image"
+        />
       </div>
     </div>
   );

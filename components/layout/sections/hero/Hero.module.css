@@ -1,28 +1,42 @@
 .Hero {
   display: flex;
   flex-direction: column;
-  padding-left: 6.66em;
+  padding-left: 16px;
   max-width: 1440px;
   margin: 0 auto;
   width: 100%;
   position: relative;
+  padding-top: 96px;
 }
 
 .HeroBottomWrapper,
 .HeroTopWrapper {
   display: flex;
   justify-content: space-between;
+
   position: relative;
   z-index: 1;
+}
+
+.HeroBottomWrapper a {
+  transform: translateY(-20px);
 }
 
 .HeroTopWrapper {
   padding-top: 27px;
   margin-bottom: 16px;
+  flex-direction: column;
 }
 
 .HeroTextWrapper {
   padding-top: 80px;
+  margin-bottom: 204px;
+}
+
+.HeroTextWrapper a {
+  width: max-content;
+  margin-top: 40px;
+  display: block;
 }
 
 .HeroTextWrapper h1 {
@@ -98,4 +112,28 @@
   width: 1268px;
   z-index: 0;
   opacity: 0.7;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .Hero {
+    padding-left: 6.66em;
+  }
+
+  .HeroTopWrapper {
+    flex-direction: row;
+  }
+
+  .HeroTextWrapper {
+    margin-bottom: 0px;
+  }
+
+  .HeroTextWrapper a {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
 }

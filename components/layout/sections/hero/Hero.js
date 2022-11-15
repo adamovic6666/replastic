@@ -1,6 +1,6 @@
 import classes from "./Hero.module.css";
 import Image from "next/image";
-import PlayButton from "../../../svgs/PlayButton";
+import Link from "../../../ui/Link";
 
 const Hero = () => {
   return (
@@ -16,21 +16,34 @@ const Hero = () => {
             je osnovano 2008. godine i bavi se otkupom i reciklažom svih vrsta
             plastike, kao i prodajom granulisanih materijala PREMIJUM kvaliteta.
           </p>
+          <Link href="#contact">Pozovite nas</Link>
         </div>
-        <div className={classes.HeroImageTop}>
-          <Image src="/hero-img-1.png" width={511} height={356} />
-        </div>
+
+        {/* <div className={classes.HeroImageTop}>
+          <Image
+            src="/hero-img-1.png"
+            width={511}
+            height={356}
+            alt="hero-image"
+          />
+        </div> */}
       </div>
       <div className={classes.HeroBottomWrapper}>
-        <div className={classes.HeroVideoWrapper}>
-          <span></span>
-          <PlayButton />
-          <p>Pogledajte naš video</p>
-        </div>
-        <div className={classes.HeroBottomImagesWrapper}>
-          <Image src="/hero-img-2.png" width={511} height={356} />
-          <Image src="/hero-img-3.png" width={396} height={542} />
-        </div>
+        <Link href="#contact">Pozovite nas</Link>
+        {/* <div className={classes.HeroBottomImagesWrapper}>
+          <Image
+            src="/hero-img-2.png"
+            width={511}
+            height={356}
+            alt="hero-image"
+          />
+          <Image
+            src="/hero-img-3.png"
+            width={396}
+            height={542}
+            alt="hero-image"
+          />
+        </div> */}
       </div>
       <div className={classes.HeroFrame}></div>
     </div>

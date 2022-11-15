@@ -1,5 +1,5 @@
 .About {
-  padding: 64px 6.66em 120px;
+  padding: 64px 16px 64px;
   position: relative;
   max-width: 1440px;
   margin: 0 auto;
@@ -9,11 +9,11 @@
   margin: 8px 0 24px;
   line-height: 120%;
   text-transform: uppercase;
-  color: var(--black);
 }
 
 .TextWrapper {
   display: flex;
+  flex-direction: column;
   gap: 16px;
 }
 
@@ -31,14 +31,6 @@
   z-index: 1;
 }
 
-.ImageWrapper svg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-}
-
 .AboutFrame {
   background-image: url("/about-frame.png");
   position: absolute;
@@ -51,4 +43,38 @@
   width: 1268px;
   z-index: 0;
   opacity: 0.7;
+}
+
+.VideoWrapper iframe {
+  aspect-ratio: 16/9;
+  margin-top: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.About > span {
+  position: absolute;
+  z-index: -2;
+  top: -30px;
+  left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .About {
+    padding: 64px 6.66em 120px;
+  }
+
+  .TextWrapper {
+    flex-direction: row;
+  }
+
+  .VideoWrapper iframe {
+    margin-top: 64px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
 }

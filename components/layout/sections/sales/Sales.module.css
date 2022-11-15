@@ -1,8 +1,10 @@
 .Sales {
-  padding: 0px 6.66em 127px;
+  padding: 0px 16px 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  z-index: 2;
 }
 
 .Sales h3 {
@@ -14,7 +16,7 @@
   line-height: 140%;
   text-align: center;
   letter-spacing: 0.02em;
-  max-width: 432px;
+  max-width: 532px;
   color: var(--gray);
 }
 
@@ -22,4 +24,44 @@
   padding-top: 40px;
   display: flex;
   gap: 16px;
+  flex-direction: column;
+}
+
+.Sales > span {
+  position: absolute;
+  z-index: -1;
+  top: -90px;
+  left: 0;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .Footer p {
+    line-height: 120%;
+  }
+
+  .Footer > div a {
+    position: absolute;
+    right: 6.66em;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .Sales > div {
+    flex-direction: row;
+  }
+
+  .Sales p {
+    max-width: 532px;
+  }
+
+  .Sales {
+    align-items: center;
+    padding: 0px 6.66em 127px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
 }

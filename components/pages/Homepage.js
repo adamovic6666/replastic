@@ -5,6 +5,7 @@ import Redemption from "../layout/sections/redemption/Redemption";
 import Recycling from "../layout/sections/recycling/Recycling";
 import Sales from "../layout/sections/sales/Sales";
 import Contact from "../layout/sections/contact/Contact";
+import Informations from "../layout/sections/informations/Informations";
 
 const Homepage = () => {
   return (
@@ -13,6 +14,7 @@ const Homepage = () => {
       <Hero />
       <About />
       <Redemption />
+      <Informations />
       <Recycling />
       <Sales />
       <Contact />

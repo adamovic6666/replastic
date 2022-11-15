@@ -1,7 +1,9 @@
 .Recycling {
-  padding: 120px 6.66em;
+  padding: 64px 16px;
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+  position: relative;
 }
 
 .Recycling h3 {
@@ -24,4 +26,34 @@
 
 .TextContent p:nth-of-type(1) {
   font-weight: 600;
+}
+
+.Recycling > span {
+  position: absolute;
+  z-index: -2;
+
+  top: -10px;
+  left: 0;
+}
+
+.Recycling > div:last-of-type {
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (min-width: 992px) {
+  .Recycling {
+    align-items: center;
+    padding: 80px 6.66em 127px;
+    flex-direction: row;
+  }
+
+  .Recycling > div:last-of-type {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
 }
