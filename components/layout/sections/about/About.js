@@ -3,6 +3,8 @@ import classes from "./About.module.css";
 const About = () => {
   return (
     <div className={classes.About}>
+      <div className={classes.AboutFrame}></div>
+
       <span id="about"></span>
       <h3>replastic</h3>
       <div className={classes.TextWrapper}>
@@ -31,7 +33,6 @@ const About = () => {
           allowFullScreen
         ></iframe>
       </div>
-      <div className={classes.AboutFrame}></div>
     </div>
   );
 };

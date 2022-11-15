@@ -6,9 +6,11 @@ import Android from "../../../svgs/Android";
 import Email from "../../../svgs/Email";
 const Contact = () => {
   return (
-    <div className={`${classes.ContactWrapper} container`}>
+    <div className={`${classes.ContactWrapper}`}>
+      <div className={classes.ContactFrame}></div>
+
       <span id="contact"></span>
-      <div className={classes.Contact}>
+      <div className={`${classes.Contact} container`}>
         <div className={classes.DetailsWrapper}>
           <h3>Kontakt</h3>
           <div className={classes.Details}>
@@ -81,7 +83,6 @@ const Contact = () => {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
-        <div className={classes.ContactFrame}></div>
       </div>
     </div>
   );
