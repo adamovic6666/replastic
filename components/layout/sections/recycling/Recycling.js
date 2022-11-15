@@ -14,7 +14,7 @@ const Recycling = () => {
         <div className={classes.TextContent}>
           <p>
             Replastic predstavlja savremeni sertifikovani reciklažni centar koji
-            Vam obezbeđuje svu potrebnu dokumentaciju <br />o kretanju otpada.
+            Vam obezbeđuje svu potrebnu dokumentaciju o kretanju otpada.
           </p>
           <p>
             Reciklaža plastike predstavlja izdvajanje i razvrstavanje plastičnih

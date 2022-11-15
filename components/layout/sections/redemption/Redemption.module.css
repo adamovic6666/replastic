@@ -96,9 +96,13 @@
   left: 0;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 600px) {
   .Card {
-    max-width: 50%;
+    max-width: 75%;
+  }
+
+  .BottomText p:nth-of-type(2) {
+    text-align: left;
   }
 }
 
@@ -128,6 +132,7 @@
 
   .BottomText p:nth-of-type(2) {
     display: none;
+    text-align: center;
   }
 }
 

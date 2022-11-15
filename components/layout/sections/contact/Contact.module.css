@@ -103,14 +103,16 @@
   left: 0;
 }
 
-@media only screen and (min-width: 768px) {
-  .Map iframe {
-    width: 100%;
-  }
-
+@media only screen and (min-width: 600px) {
   .Details {
     flex-direction: row;
   }
+  .Map iframe {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
 }
 
 @media only screen and (min-width: 992px) {

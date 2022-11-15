@@ -135,6 +135,17 @@
   transform: rotate(180deg);
 }
 
+@media only screen and (min-width: 600px) {
+  .HeroTextWrapper h1 {
+    max-width: 444px;
+  }
+
+  .HeroImageTop,
+  .HeroBottomImagesWrapper > div:nth-of-type(1) {
+    max-width: 393px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .HeroImageTop,
   .HeroBottomImagesWrapper > div:nth-of-type(1) {
@@ -156,6 +167,10 @@
 }
 
 @media only screen and (min-width: 992px) {
+  .HeroTextWrapper h1 {
+    max-width: 644px;
+  }
+
   .HeroTopWrapper {
     flex-direction: row;
   }

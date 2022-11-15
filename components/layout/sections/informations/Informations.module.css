@@ -88,6 +88,24 @@
   left: 50%;
   transform: translate(-30%, -15%);
 }
+@media only screen and (min-width: 600px) {
+  .BubbleMobile {
+    display: none;
+  }
+  .BubbleImage {
+    display: block;
+  }
+
+  .BubbleImage {
+    right: 20px;
+    top: -30px;
+  }
+
+  .BubbleImage img {
+    width: 120px;
+    height: 100px;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .InformationsWrapper {
@@ -99,23 +117,9 @@
     display: block;
   }
 
-  .BubbleImage {
-    right: 40px;
-    top: 0px;
-  }
-
-  .BubbleImage img {
-    width: 220px;
-    height: 200px;
-  }
-
   .Informations {
     padding: 80px 0px 80px 80px;
     margin-bottom: 80px;
-  }
-
-  .BubbleMobile {
-    display: none;
   }
 
   .Informations > div:nth-of-type(1) {
