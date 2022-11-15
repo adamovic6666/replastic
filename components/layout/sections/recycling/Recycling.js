@@ -37,6 +37,7 @@ const Recycling = () => {
           width={width}
           height={442}
           alt="plastic-recycle-image"
+          layout="responsive"
         />
       </div>
     </div>

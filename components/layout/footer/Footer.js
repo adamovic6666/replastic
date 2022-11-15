@@ -7,7 +7,6 @@ const Footer = () => {
       <div className="container">
         <p>Replastic d.o.o. © Sva prava zadržana.</p>
         <p>2022</p>
-        <div className={classes.FooterFrame}></div>
         <Link href="/">Politika privatnosti</Link>
       </div>
     </footer>

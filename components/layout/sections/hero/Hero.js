@@ -18,32 +18,38 @@ const Hero = () => {
           </p>
           <Link href="#contact">Pozovite nas</Link>
         </div>
-
-        {/* <div className={classes.HeroImageTop}>
+        <div className={classes.HeroImageTop}>
           <Image
             src="/hero-img-1.png"
             width={511}
             height={356}
             alt="hero-image"
+            layout="responsive"
           />
-        </div> */}
+        </div>
       </div>
       <div className={classes.HeroBottomWrapper}>
         <Link href="#contact">Pozovite nas</Link>
-        {/* <div className={classes.HeroBottomImagesWrapper}>
-          <Image
-            src="/hero-img-2.png"
-            width={511}
-            height={356}
-            alt="hero-image"
-          />
-          <Image
-            src="/hero-img-3.png"
-            width={396}
-            height={542}
-            alt="hero-image"
-          />
-        </div> */}
+        <div className={classes.HeroBottomImagesWrapper}>
+          <div>
+            <Image
+              src="/hero-img-2.png"
+              width={511}
+              height={356}
+              alt="hero-image"
+              layout="responsive"
+            />
+          </div>
+          <div>
+            <Image
+              src="/hero-img-3.png"
+              width={396}
+              height={542}
+              alt="hero-image"
+              layout="responsive"
+            />
+          </div>
+        </div>
       </div>
       <div className={classes.HeroFrame}></div>
     </div>

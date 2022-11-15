@@ -52,6 +52,8 @@
 
   .Recycling > div:last-of-type {
     margin-top: 0px;
+    margin-left: 48px;
+    max-width: 721px;
   }
 }
 
