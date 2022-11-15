@@ -7,7 +7,7 @@ const SEO = ({ metaTitle }) => {
       // canonical="https://www.example.com"
       openGraph={{
         url: "https://replastic.vercel.app/",
-        title: "Open Graph Title",
+        title: "Replastic",
         description: "Open Graph Description",
         images: [
           {
