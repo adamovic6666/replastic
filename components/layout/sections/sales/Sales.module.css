@@ -73,6 +73,11 @@
     width: 100;
     display: flex;
     flex-direction: row;
+    width: 100%;
+  }
+
+  .ImagesWrapper > div {
+    width: 100%;
   }
 }
 

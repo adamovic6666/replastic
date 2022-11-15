@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
       </div>
       <div className={classes.HeroBottomWrapper}>
-        <Link href="#contact">Pozovite nas</Link>
+        <Link href="/#contact">Pozovite nas</Link>
         <div className={classes.HeroBottomImagesWrapper}>
           <div>
             <Image

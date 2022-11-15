@@ -35,7 +35,14 @@ const Informations = () => {
             </a>
           </div>
         </div>
-        <div className={classes.BubbleMobile}></div>
+        <div className={classes.BubbleMobile}>
+          <Image
+            src="/speach-bubble-mobile.png"
+            alt="bubble-image"
+            layout="fill"
+            objectFit="cover"
+          />
+        </div>
 
         <div className={classes.Frame}>
           <Image

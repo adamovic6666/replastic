@@ -31,8 +31,7 @@
 .Recycling > span {
   position: absolute;
   z-index: -2;
-
-  top: -10px;
+  top: -30px;
   left: 0;
 }
 
@@ -53,9 +52,18 @@
   .Recycling > div:last-of-type {
     margin-top: 0px;
     margin-left: 48px;
-    max-width: 721px;
+    max-width: 621px;
+  }
+
+  .Recycling > span {
+    top: -10px;
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1440px) {
+  .Recycling > div:last-of-type {
+    margin-top: 0px;
+    margin-left: 48px;
+    max-width: 721px;
+  }
 }

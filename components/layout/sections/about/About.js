@@ -26,7 +26,7 @@ const About = () => {
         <iframe
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/6jQ7y_qQYUA"
+          src="https://www.youtube.com/embed/iH5zZqHghLI"
           title="YouTube video player"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

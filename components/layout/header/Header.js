@@ -4,6 +4,7 @@ import Hamburger from "hamburger-react";
 import Logo from "../../ui/Logo";
 import { NAV_LINKS } from "../../../pageData/data";
 import classes from "./Header.module.css";
+import MobileNav from "./MobileNav";
 
 const Header = () => {
   const [isOpen, setOpen] = useState(false);
@@ -21,6 +22,12 @@ const Header = () => {
             ))}
           </ul>
         </nav>
+        <MobileNav
+          isOpen={isOpen}
+          setOpen={() => {
+            setOpen(false);
+          }}
+        />
       </div>
       <Hamburger toggled={isOpen} toggle={setOpen} />
     </header>

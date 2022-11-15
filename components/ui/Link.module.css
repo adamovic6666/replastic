@@ -4,9 +4,15 @@
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 120%;
   text-transform: uppercase;
   color: #f5f5f7;
   border-radius: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+  .Link {
+    font-size: 16px;
+  }
 }
