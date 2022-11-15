@@ -10,8 +10,8 @@ export const REDEMPTION_DETAILS = [
   {
     id: 1,
     title: "pet",
-    description:
-      "(polietilen teraftalat) plastične flaše i boce od vode, sokova, piva, ulja, jogurta",
+    type: "polietilen teraftalat",
+    description: "plastične flaše i boce od vode, sokova, piva, ulja, jogurta",
     svg: (
       <svg
         width="37"
@@ -53,7 +53,9 @@ export const REDEMPTION_DETAILS = [
   {
     id: 2,
     title: "pe",
-    description: "(polietilen) plastične folije i kese",
+    type: "polietilen",
+
+    description: "plastične folije i kese",
     svg: (
       <svg
         width="37"
@@ -90,8 +92,9 @@ export const REDEMPTION_DETAILS = [
   {
     id: 3,
     title: "hdpe",
-    description:
-      "(polietilen visoke gustine) veoma tvrdu foliju, zatvarače, tvrde plastične flaše",
+    type: "polietilen visoke gustine",
+
+    description: "veoma tvrdu foliju, zatvarače, tvrde plastične flaše",
     svg: (
       <svg
         width="37"
@@ -133,8 +136,9 @@ export const REDEMPTION_DETAILS = [
   {
     id: 4,
     title: "ldpe",
-    description:
-      "(polietilen male gustine) belu tanku foliju za pakovanje pića",
+    type: "polietilen male gustine",
+
+    description: "belu tanku foliju za pakovanje pića",
     svg: (
       <svg
         width="37"
@@ -176,8 +180,9 @@ export const REDEMPTION_DETAILS = [
   {
     id: 5,
     title: "pp",
+    type: "polipropilen",
     description:
-      "(polipropilen) plastični kanisteri za ulje, boce od hemijskih preparata, burad",
+      "plastični kanisteri za ulje, boce od hemijskih preparata, burad",
     svg: (
       <svg
         width="37"

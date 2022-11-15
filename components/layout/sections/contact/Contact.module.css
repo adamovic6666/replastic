@@ -57,6 +57,16 @@
   color: var(--gray);
 }
 
+.DetailLink {
+  display: block;
+}
+
+.DetailLink p {
+  font-weight: 400 !important;
+  letter-spacing: 0.02em;
+  color: var(--gray) !important;
+}
+
 .DetailWrapper svg {
   margin-right: 16px;
   width: 24px;

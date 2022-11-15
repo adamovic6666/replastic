@@ -6,7 +6,7 @@ const About = () => {
       <div className={classes.AboutFrame}></div>
 
       <span id="about"></span>
-      <h3>replastic</h3>
+      <h3>O nama</h3>
       <div className={classes.TextWrapper}>
         <p className="body-text">
           U REPLASTIC reciklažnom pogonu svi materijali prolaze niz bezednosnih

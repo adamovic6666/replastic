@@ -15,7 +15,7 @@ const Informations = () => {
             otpadnom materijalu i javićemo Vam se u najkraćem roku.
           </p>
           <div className={classes.LinksWrapper}>
-            <a href="viber://chat?number=0607077719" className={classes.Link}>
+            <a href="viber://chat?number=063387954" className={classes.Link}>
               <Image
                 src="/viber.png"
                 height={24}
@@ -24,7 +24,7 @@ const Informations = () => {
               />
               <span>whatsapp</span>
             </a>
-            <a href="https://wa.me/0607077719" className={classes.Link}>
+            <a href="https://wa.me/063387954" className={classes.Link}>
               <Image
                 src="/whatsupp.png"
                 height={24}
@@ -37,10 +37,11 @@ const Informations = () => {
         </div>
         <div className={classes.BubbleMobile}>
           <Image
-            src="/speach-bubble-mobile.png"
+            src="/bubble.png"
             alt="bubble-image"
-            layout="fill"
-            objectFit="cover"
+            width={200}
+            height={200}
+            layout="responsive"
           />
         </div>
 

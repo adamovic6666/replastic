@@ -45,28 +45,39 @@ const Contact = () => {
                 <Telephone />
                 <div>
                   <p> Kancelarija</p>
-                  <p>022 560 294</p>
+                  <a className={classes.DetailLink} href="tel:+381022560294">
+                    <p>022 560 294</p>
+                  </a>
                 </div>
               </div>
               <div className={classes.DetailWrapper}>
                 <Android />
                 <div>
                   <p> Farid Safargaliev</p>
-                  <p>060 70 777 19</p>
+                  <a className={classes.DetailLink} href="tel:+3810607077719">
+                    <p>022 560 294</p>
+                  </a>
                 </div>
               </div>
               <div className={classes.DetailWrapper}>
                 <Android />
                 <div>
                   <p> Milen Nikolić</p>
-                  <p>063 387 954</p>
+                  <a className={classes.DetailLink} href="tel:+381063387954">
+                    <p>022 560 294</p>
+                  </a>
                 </div>
               </div>
               <div className={classes.DetailWrapper}>
                 <Email />
                 <div>
                   <p> Email</p>
-                  <p>info@replastic.rs</p>
+                  <a
+                    className={classes.DetailLink}
+                    href="mailto:info@replastic.rs"
+                  >
+                    <p>info@replastic.rs</p>
+                  </a>
                 </div>
               </div>
             </div>

@@ -20,12 +20,13 @@ const Redemption = () => {
         </div>
       </div>
       <div className={classes.CardsWrapper}>
-        {REDEMPTION_DETAILS.map(({ id, title, description, svg }) => {
+        {REDEMPTION_DETAILS.map(({ id, title, description, svg, type }) => {
           return (
             <div key={id} className={classes.Card}>
               <div className={classes.CardImageWrapper}>{svg}</div>
               <div className={classes.CardTextWrapper}>
                 <span>{title}</span>
+                <p>{type}</p>
                 <p>{description}</p>
               </div>
             </div>
@@ -36,6 +37,12 @@ const Redemption = () => {
         <p>
           <span> Minimalne količine za otkup : </span>
           200 kg jedne vrste plastičnog proizvoda.
+        </p>
+        <p>
+          <span>
+            Minimalne količine za otkup <br /> 200 kg jedne vrste plastičnog
+            proizvoda.
+          </span>
         </p>
       </div>
     </div>

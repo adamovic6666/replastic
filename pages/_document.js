@@ -2,7 +2,7 @@ import Document, { Html, Head, Main, NextScript } from "next/document";
 
 class CustomDocument extends Document {
   render = () => (
-    <Html lang="en" style={{ scrollBehavior: "smooth !important" }}>
+    <Html lang="en">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,7 +11,6 @@ class CustomDocument extends Document {
           rel="stylesheet"
         />
         <meta name="description" content="descriptoin-placeholder" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
         <link
           rel="apple-touch-icon"
