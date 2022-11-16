@@ -11,33 +11,30 @@ const SEO = ({ metaTitle }) => {
       </Head>
       <NextSeo
         title={metaTitle}
-        description="This is a demo description"
-        // canonical="https://www.example.com"
+        description="Savremeni sertifikovani reciklažni centar za otkup i reciklažu plastike. Prodaja premijum regranulata po najboljim cenama"
+        canonical="https://www.example.com"
         openGraph={{
-          url: "https://replastic.vercel.app/",
-          title: "Replastic",
-          description: "Open Graph Description",
+          url: "https://replastic.rs",
+          title: "REPLASTIC | Otkup i reciklaža plastike",
+          description:
+            "Savremeni sertifikovani reciklažni centar za otkup i reciklažu plastike. Prodaja premijum regranulata po najboljim cenama",
           images: [
             {
-              // url: "https://www.example.com/og-image01.jpg",
               url: "https://replastic.vercel.app/about-img.png",
               width: 800,
               height: 600,
-              alt: "Og Image Alt",
+              alt: "og-image",
               type: "image/png",
             },
             {
-              // url: "https://www.example.com/og-image02.jpg",
               url: "https://replastic.vercel.app/about-img.png",
               width: 900,
               height: 800,
-              alt: "Og Image Alt Second",
+              alt: "og-image-2",
               type: "image/png",
             },
-            { url: "https://www.example.com/og-image03.jpg" },
-            { url: "https://www.example.com/og-image04.jpg" },
           ],
-          site_name: "https://replastic.vercel.app/",
+          site_name: "https://replastic.rs",
         }}
       />
     </>
