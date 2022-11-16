@@ -39,7 +39,7 @@
 }
 
 .LinksWrapper span {
-  /* border-left: 1px solid var(--gray); */
+  border-left: 1px solid var(--gray);
   padding-left: 8px;
   margin-left: 8px;
 }
@@ -98,7 +98,7 @@
 
   .BubbleImage {
     right: 20px;
-    top: -30px;
+    top: 60px;
   }
 
   .BubbleImage img {
@@ -112,7 +112,8 @@
     padding-top: 127px;
   }
 
-  .BubbleImage {
+  .BubbleImage,
+  .Frame {
     display: block;
   }
 

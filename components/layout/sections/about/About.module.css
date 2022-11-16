@@ -43,7 +43,8 @@
   height: 877px;
   width: 100%;
   z-index: 0;
-  opacity: 0.7;
+  opacity: 1;
+  display: none;
 }
 
 .VideoWrapper iframe {

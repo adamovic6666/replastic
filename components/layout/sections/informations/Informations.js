@@ -22,7 +22,7 @@ const Informations = () => {
                 width={24}
                 alt="viber-image"
               />
-              <span>whatsapp</span>
+              <span>viber</span>
             </a>
             <a href="https://wa.me/38163387954" className={classes.Link}>
               <Image
@@ -31,7 +31,7 @@ const Informations = () => {
                 width={24}
                 alt="whatsapp-image"
               />
-              <span>viber</span>
+              <span>whatsapp</span>
             </a>
           </div>
         </div>
