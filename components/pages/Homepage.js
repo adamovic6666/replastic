@@ -10,7 +10,7 @@ import Informations from "../layout/sections/informations/Informations";
 const Homepage = () => {
   return (
     <>
-      <SEO metaTitle="REPLASTIC" />
+      <SEO metaTitle="REPLASTIC | Otkup i reciklaža plastike" />
       <Hero />
       <About />
       <Redemption />
