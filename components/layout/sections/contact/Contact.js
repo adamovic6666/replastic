@@ -55,7 +55,7 @@ const Contact = () => {
                 <div>
                   <p> Farid Safargaliev</p>
                   <a className={classes.DetailLink} href="tel:+381607077719">
-                    <p>060 70 77 19</p>
+                    <p>060 70 777 19</p>
                   </a>
                 </div>
               </div>
