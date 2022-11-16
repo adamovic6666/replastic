@@ -15,7 +15,7 @@ const Informations = () => {
             otpadnom materijalu i javićemo Vam se <br />u najkraćem roku.
           </p>
           <div className={classes.LinksWrapper}>
-            <a href="viber://chat?number=+38163387954" className={classes.Link}>
+            <a href="viber://chat?number=38163387954" className={classes.Link}>
               <Image
                 src="/viber.png"
                 height={24}
@@ -24,7 +24,7 @@ const Informations = () => {
               />
               <span>whatsapp</span>
             </a>
-            <a href="https://wa.me/063387954" className={classes.Link}>
+            <a href="https://wa.me/38163387954" className={classes.Link}>
               <Image
                 src="/whatsupp.png"
                 height={24}
