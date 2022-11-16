@@ -1,0 +1,64 @@
+.PrivacyPolicy {
+  padding: 120px 16px 80px;
+  font-family: "Inter", sans-serif;
+}
+
+.PrivacyPolicy h1 {
+  color: var(--blue);
+  margin-bottom: 40px;
+}
+
+.PrivacyPolicy p {
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--gray);
+  margin-bottom: 16px;
+  line-height: 120%;
+  font-size: 16px;
+}
+
+.PrivacyPolicy span {
+  font-weight: 600;
+  color: var(--blue);
+}
+
+.PrivacyPolicy h3,
+.PrivacyPolicy h4,
+.PrivacyPolicy h5 {
+  margin: 24px 0;
+  color: var(--gray);
+}
+
+.PrivacyPolicy h5 {
+  font-size: 18px;
+}
+
+.PrivacyPolicy a {
+  color: var(--blue);
+}
+
+.PrivacyPolicy ul {
+  margin: 48px 0;
+  padding-left: 20px;
+}
+
+.PrivacyPolicy ul li {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 120%;
+  max-width: 250px;
+}
+
+@media only screen and (min-width: 992px) {
+  .PrivacyPolicy {
+    padding: 240px 6.66em 80px;
+  }
+
+  .PrivacyPolicy ul {
+    padding-left: 40px;
+  }
+
+  .PrivacyPolicy ul li {
+    max-width: 500px;
+  }
+}
