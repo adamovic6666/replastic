@@ -12,7 +12,7 @@ const SEO = ({ metaTitle }) => {
       <NextSeo
         title={metaTitle}
         description="Savremeni sertifikovani reciklažni centar za otkup i reciklažu plastike. Prodaja premijum regranulata po najboljim cenama"
-        canonical="https://www.example.com"
+        canonical="https://replastic.rs"
         openGraph={{
           url: "https://replastic.rs",
           title: "REPLASTIC | Otkup i reciklaža plastike",
