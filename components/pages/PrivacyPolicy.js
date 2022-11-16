@@ -1,15 +1,19 @@
 import classes from "./PrivacyPolicy.module.css";
+import Link from "next/link";
 
 const PrivacyPolicy = () => {
   return (
     <div className={`${classes.PrivacyPolicy} container`}>
       <h1>Politika privatnosti</h1>
       <p>
-        <span>Replastic d.o.o.</span> vrlo ozbiljno shvata svoju odgovornost u
-        pogledu zaštite podataka o ličnosti.
+        <span>Replastic d.o.o. </span>
+        vrlo ozbiljno shvata svoju odgovornost u pogledu zaštite podataka o
+        ličnosti.
       </p>
       <p>
-        <span>replastic.rs</span>
+        <Link href="/">
+          <span>replastic.rs </span>
+        </Link>
         (u daljem tekstu web sajt) obvezuje se da će štititi Vašu privatnost i
         omogućiti Vam najbolje moguće iskustvo korišćenja ove web stranice.
       </p>
@@ -19,7 +23,6 @@ const PrivacyPolicy = () => {
         je povremeno proverite.
       </p>
       <p>
-        {" "}
         Ova politika zaštite privatnosti opisuje načine na koje web sajt koristi
         lične podatke posetilaca. Davanjem svojih ličnih podataka i prihvatanjem
         Politike privatnosti potvrđujete da ste saglasni da se Vaši podaci
@@ -91,9 +94,12 @@ const PrivacyPolicy = () => {
       <p>
         *Anonimizovan nickname od email adrese može biti dostavljen usluzi
         Gravatar radi provere da li istu uslugu korsitite. Ovde možete videte{" "}
-        <a>politiku privatnosti Gravatara.</a> Nakon odobravanja komentara vaša
-        slika profila je vidljiva javnosti. Komentari se čuvaju dok autor ne
-        zatraži skidanje ili na naki način narušava ideologiju web sajta.
+        <a href="https://automattic.com/privacy/">
+          politiku privatnosti Gravatara.
+        </a>{" "}
+        Nakon odobravanja komentara vaša slika profila je vidljiva javnosti.
+        Komentari se čuvaju dok autor ne zatraži skidanje ili na naki način
+        narušava ideologiju web sajta.
       </p>
       <h3>VAŠE LIČNE PODATKE NE DELIMO SA DRUGIMA NI POD KOJIM USLOVIMA</h3>
       <p>
