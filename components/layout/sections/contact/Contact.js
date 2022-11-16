@@ -31,11 +31,11 @@ const Contact = () => {
                 <div>
                   <div>
                     <p> Ponedeljak - Petak:</p>
-                    <p> 07:00 - 15:00h</p>
+                    <p> 07:00 - 15:00</p>
                   </div>
                   <div>
                     <p> Subota:</p>
-                    <p> 07:00 - 14:00h</p>
+                    <p> 07:00 - 14:00</p>
                   </div>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const Contact = () => {
                 <div>
                   <p> Farid Safargaliev</p>
                   <a className={classes.DetailLink} href="tel:+381607077719">
-                    <p>022 560 294</p>
+                    <p>060 70 77 19</p>
                   </a>
                 </div>
               </div>
@@ -64,7 +64,7 @@ const Contact = () => {
                 <div>
                   <p> Milen Nikolić</p>
                   <a className={classes.DetailLink} href="tel:+38163387954">
-                    <p>022 560 294</p>
+                    <p>063 387 954</p>
                   </a>
                 </div>
               </div>

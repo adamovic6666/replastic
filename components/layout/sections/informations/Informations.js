@@ -15,7 +15,7 @@ const Informations = () => {
             otpadnom materijalu i javićemo Vam se <br />u najkraćem roku.
           </p>
           <div className={classes.LinksWrapper}>
-            <a href="viber://chat?number=063387954" className={classes.Link}>
+            <a href="viber://chat?number=+38163387954" className={classes.Link}>
               <Image
                 src="/viber.png"
                 height={24}

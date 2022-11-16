@@ -9,7 +9,7 @@ const About = () => {
       <h3>O nama</h3>
       <div className={classes.TextWrapper}>
         <p className="body-text">
-          U REPLASTIC reciklažnom pogonu svi materijali prolaze niz bezednosnih
+          U REPLASTIC reciklažnom pogonu svi materijali prolaze niz bezbednosnih
           provera i apsolutno su neškodljivi po ljudsko zdravlje. Naš reciklažni
           centar poseduje sve odgovarajuće licence i dozvole, a takođe ispunjava
           i sve zakonom propisane uslove za upravljanje plastičnim otpadom.

@@ -9,7 +9,7 @@ const Sales = () => {
       <p>
         Proizvodimo i prodajemo premijum regranulate plastike po najboljim
         cenama. U svakom trenutku u našim magacinima nalaze se reciklirani
-        regranulati visokog kvaliteta, i u raznim bojama, spremni za ponovnu
+        regranulati visokog kvaliteta u raznim bojama, spremni za ponovnu
         upotrebu u vašoj proizvodnji.
       </p>
       <div className={classes.ImagesWrapper}>

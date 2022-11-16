@@ -267,8 +267,8 @@ const PrivacyPolicy = () => {
       <h3>KAKO NAS KONTAKTIRATI?</h3>
       <p>
         U svakom trenutku možete zahtevati brisanje svih podataka slanjem
-        zahteva na <a href="mailto:office@autofrogy.com">info@replastic</a> sa
-        naslovom GDPR.
+        zahteva na <a href="mailto:office@autofrogy.com">info@replastic.rs</a>{" "}
+        sa naslovom GDPR.
       </p>
       <h3>PROMENE POLITIKE PRIVATNOSTI</h3>
       <p>
