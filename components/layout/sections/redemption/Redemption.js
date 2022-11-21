@@ -27,7 +27,6 @@ const Redemption = () => {
               <div className={classes.CardTextWrapper}>
                 <span>{title}</span>
                 <p>{type}</p>
-                <p>{description}</p>
               </div>
             </div>
           );

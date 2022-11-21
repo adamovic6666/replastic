@@ -54,7 +54,7 @@ const Contact = () => {
                 <Android />
                 <div>
                   <p> Milen Nikolić</p>
-                  <span>Prodaja i nabavka*</span>
+                  <span>Prodaja i nabavka</span>
                   <a className={classes.DetailLink} href="tel:+38163387954">
                     <p>063 387 954</p>
                   </a>
@@ -64,7 +64,7 @@ const Contact = () => {
                 <Android />
                 <div>
                   <p> Farid Safargaliev</p>
-                  <span>Administracija i finansije*</span>
+                  <span>Administracija i finansije</span>
                   <a className={classes.DetailLink} href="tel:+381607077719">
                     <p>060 70 777 19</p>
                   </a>
