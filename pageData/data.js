@@ -183,7 +183,7 @@ export const REDEMPTION_DETAILS = [
   {
     id: 9,
     title: "ABS",
-    type: "Akrilonitril butadien stiren",
+    type: "akrilonitril butadien stiren",
     description:
       "plastični kanisteri za ulje, boce od hemijskih preparata, burad",
     svg: (
