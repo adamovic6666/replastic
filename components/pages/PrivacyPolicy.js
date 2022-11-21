@@ -101,10 +101,10 @@ const PrivacyPolicy = () => {
         <p>(Ime/nickname, email adresa, ip adresa)</p>
         <p>
           *Anonimizovan nickname od email adrese može biti dostavljen usluzi
-          Gravatar radi provere da li istu uslugu korsitite. Ovde možete videte{" "}
+          Gravatar radi provere da li istu uslugu korsitite. Ovde možete videte
           <a href="https://automattic.com/privacy/">
             politiku privatnosti Gravatara.
-          </a>{" "}
+          </a>
           Nakon odobravanja komentara vaša slika profila je vidljiva javnosti.
           Komentari se čuvaju dok autor ne zatraži skidanje ili na naki način
           narušava ideologiju web sajta.
@@ -202,10 +202,39 @@ const PrivacyPolicy = () => {
           „Pomoć” (Help) u svom internet pregledaču.
         </p>
         <ul>
-          <li>Podešavanje kolačića u Internet Explorer-u</li>
-          <li>Podešavanje kolačića u Firefox-u</li>
-          <li>Podešavanja kolačića u Chrome-u</li>
-          <li>Podešavanja kolačića u Safari-ju</li>
+          <li>
+            Podešavanje kolačića u&nbsp;
+            <a
+              target="_blank"
+              href="https://www.timeanddate.com/custom/cookies.html"
+            >
+              Internet Explorer-u
+            </a>
+          </li>
+          <li>
+            Podešavanje kolačića u&nbsp;
+            <a
+              target="_blank"
+              href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer?redirectlocale=en-US&redirectslug=Cookies"
+            >
+              Firefox-u
+            </a>
+          </li>
+          <li>
+            Podešavanja kolačića u&nbsp;
+            <a
+              target="_blank"
+              href="https://support.google.com/chrome/answer/95647?hl=en"
+            >
+              Chrome-u
+            </a>
+          </li>
+          <li>
+            Podešavanja kolačića u&nbsp;
+            <a target="_blank" href="https://support.apple.com/en-us/HT201265">
+              Safari-ju
+            </a>
+          </li>
         </ul>
         <h3>KADA KORISTIMO KOLAČIĆE?</h3>
         <h5>Praćenje</h5>
