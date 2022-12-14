@@ -12,26 +12,19 @@ const SEO = ({ metaTitle }) => {
       <NextSeo
         title={metaTitle}
         description="Savremeni sertifikovani reciklažni centar za otkup i reciklažu plastike. Prodaja premijum regranulata po najboljim cenama"
-        canonical="https://replastic.vercel.app/"
+        canonical="https://replastic.rs"
         openGraph={{
-          url: "https://replastic.vercel.app/",
+          url: "https://replastic.rs",
           title: "REPLASTIC | Otkup i reciklaža plastike",
           description:
             "Savremeni sertifikovani reciklažni centar za otkup i reciklažu plastike. Prodaja premijum regranulata po najboljim cenama",
           images: [
             {
-              url: "https://replastic.vercel.app/about-img.png",
+              url: "https://replastic.rs/og-image.jpg",
               width: 800,
               height: 600,
               alt: "og-image",
-              type: "image/png",
-            },
-            {
-              url: "https://replastic.vercel.app/about-img.png",
-              width: 900,
-              height: 800,
-              alt: "og-image-2",
-              type: "image/png",
+              type: "image/jpg",
             },
           ],
           site_name: "https://replastic.rs",
